@@ -1,0 +1,14 @@
+header {
+    background-color: #063852;
+    width: 100%;
+    position: fixed;
+}
+
+
+
+
+main {
+    background-color: #3381ac;
+    background-image: url(../assets/pexels-mudassir-ali-2680270.jpg);
+    background-repeat: no-repeat;
+}

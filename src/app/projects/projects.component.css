@@ -1,0 +1,86 @@
+.pro{
+    max-width: 1024px;
+    min-height: 500px;
+    padding-top: 150px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.text{
+    margin-bottom: 100px;
+}
+
+
+.text h2{
+    margin-bottom: 30px;
+    font-size: 1.3em;
+}
+
+.projects{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cards{
+    background-repeat: no-repeat;
+    min-height: 250px;
+    background-color: #063852;
+    width: 45%;
+    margin-bottom: 40px;
+}
+
+a{
+    background-color: orange;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    color: white;
+    margin-left: 10px;
+    font-size: 1.2em;
+    visibility: hidden;
+}
+
+.cards:hover .btn{
+    visibility: visible;
+}
+
+.animated:after{
+    content:'Visit online!'; 
+    position: absolute;
+}
+
+.cards:hover .animated{
+    animation: buttonAp 0.5s 0.5 normal both;
+    visibility: visible;
+}
+
+.animated:hover, .btn:hover{
+    text-shadow: 2px 2px black;
+
+}
+
+.appear {
+    transition: 0.5s;
+    margin-top: 200px;
+}
+
+@keyframes buttonAp {
+    0%{
+         padding-right: 0px;
+    }
+    50%{
+        padding-right: 120px;
+
+    }
+    100%{
+        visibility: visible;
+    }
+}
+
+

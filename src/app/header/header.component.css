@@ -1,0 +1,30 @@
+.headerContainer{
+    max-width: 1024px;
+    min-height: 80px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerContainer ul{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+a{
+    text-decoration: none;
+    font-size: 2rem;
+    /* border: 2px solid black; */
+    border-bottom: 2px solid rgba(255, 255, 255, 0.712);
+    margin-right: 20px;
+    padding: 10px 20px;
+    transition-delay: 100ms;
+    transition-timing-function: linear;
+}
+
+a:hover{
+    /* border-right: 2px solid black; */
+    border-radius: 25%;
+}
