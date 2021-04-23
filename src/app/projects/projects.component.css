@@ -18,7 +18,6 @@
 }
 
 .projects{
-    position: relative;
     width: 100%;
     margin: auto;
     display: flex;
@@ -83,4 +82,31 @@ a{
     }
 }
 
+
+@media (max-width: 768px) {
+ 
+    .pro{
+        padding-top: 50px;
+    }    
+
+    .projects{
+        display: block;
+    }
+    
+    .cards{
+       
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+    .appear {
+        transition: 0.5s;
+        margin-top: 20px;
+        padding-top: 200px;
+    }
+
+    .cards .apper{
+        justify-content: center;
+    }
+}
 

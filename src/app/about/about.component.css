@@ -32,3 +32,26 @@
     margin-bottom: 50px;
     font-size: 1.2em;
 }
+
+
+
+@media (max-width: 768px) {
+    .about{
+        text-align: center;
+        padding-top: 0px;
+    }
+    .content{
+        width: 100%;
+        margin-top: 50px;
+        
+    }
+    .texto{
+        width: 80%;
+        margin-top: 50px;
+    }
+
+    img{
+        display: none;
+    }
+    
+}

@@ -55,3 +55,19 @@
         width: 100%;
     }
 }
+
+@media (max-width: 768px) {
+    
+    .type{
+        margin-top: 50px;
+        width: 70%;
+    }
+
+    .home{
+        padding-bottom: 0px;
+    }
+    .home h1{
+        font-size: 3em;
+        text-decoration: none;
+    }
+}
